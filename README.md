@@ -1,4 +1,4 @@
-# Movie Management Scripts
+# Movie File Management Scripts
 
 ## 使い方
 
