@@ -1,0 +1,8 @@
+# .gitignore
+
+# media ディレクトリは無視
+media/
+snapshot/
+srt-text/
+thumbnail/
+monoqlo/

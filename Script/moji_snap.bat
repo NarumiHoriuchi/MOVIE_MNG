@@ -1,0 +1,1 @@
+ffmpeg -i %%1 -vf "crop=iw:ih*0.3:0:ih*0.7,select=gt(scene\,0.3)" -vsync vfr snapshot\sub_%04d.png
