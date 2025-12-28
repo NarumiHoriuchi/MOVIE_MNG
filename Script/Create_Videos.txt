@@ -1,0 +1,29 @@
+CREATE TABLE IF NOT EXISTS Videos (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    file_id TEXT NOT NULL UNIQUE,
+    title TEXT,
+    author TEXT,
+    publish_date TEXT,
+    HDD_flag INTEGER NOT NULL DEFAULT 0,
+    RMB_flag INTEGER NOT NULL DEFAULT 0,
+    checkin_time TEXT,
+    original_filename TEXT
+);
+
+CREATE TABLE IF NOT EXISTS HDD (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    file_id TEXT NOT NULL UNIQUE,
+    folder_path TEXT NOT NULL,
+    FOREIGN KEY (file_id) REFERENCES Videos(file_id)
+        ON DELETE CASCADE
+        ON UPDATE CASCADE
+);
+
+CREATE TABLE IF NOT EXISTS REMOVABLE (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    file_id TEXT NOT NULL,
+    folder_path TEXT NOT NULL,
+    FOREIGN KEY (file_id) REFERENCES Videos(file_id)
+        ON DELETE CASCADE
+        ON UPDATE CASCADE
+);
