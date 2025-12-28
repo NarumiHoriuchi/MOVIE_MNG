@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # Movie File Management Scripts
+=======
+# Movie Management Scripts
+>>>>>>> 71844f4 (Fix CSV encoding issue; successful Volume+File insertion)
 
 ## 使い方
 

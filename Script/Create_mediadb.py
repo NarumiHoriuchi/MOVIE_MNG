@@ -16,6 +16,12 @@ CREATE TABLE IF NOT EXISTS Volume (
 )
 """)
 
+# UNIQUE INDEX（重複防止）
+c.execute("""
+CREATE UNIQUE INDEX IF NOT EXISTS idx_volume_unique
+ON Volume(volume_label, human_number);
+""")
+
 # File table（セキュリティ情報追加版）
 c.execute("""
 CREATE TABLE IF NOT EXISTS File (
@@ -32,6 +38,12 @@ CREATE TABLE IF NOT EXISTS File (
     notes TEXT,
     FOREIGN KEY(volume_id) REFERENCES Volume(volume_id)
 )
+""")
+
+# UNIQUE INDEX（重複防止）
+c.execute("""
+CREATE UNIQUE INDEX idx_file_unique ON File(volume_id, path, file_name);
+ON Volume(volume_label, human_number);
 """)
 
 conn.commit()
