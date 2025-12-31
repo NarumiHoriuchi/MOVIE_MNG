@@ -1,4 +1,4 @@
-# .gitignore
+﻿# .gitignore
 
 # media ディレクトリは無視
 media/
@@ -6,3 +6,8 @@ snapshot/
 srt-text/
 thumbnail/
 monoqlo/
+log/
+script/backup/
+
+# runtime databases
+database/*.db

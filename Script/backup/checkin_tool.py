@@ -172,7 +172,7 @@ class DBWriter:
                 title TEXT,
                 author TEXT,
                 publish_date TEXT,
-                stored_path TEXT,
+                folder_path TEXT,
                 checkin_time TEXT,
                 original_filename TEXT
             )
@@ -180,15 +180,27 @@ class DBWriter:
         )
         self.conn.commit()
 
-    def insert_video(self, file_id: str, title: Optional[str], author: Optional[str], publish_date: Optional[str], stored_path: str, checkin_time: str, original_filename: str) -> None:
+    def insert_video(self, file_id: str, title: Optional[str], author: Optional[str], publish_date: Optional[str], folder_path: str, checkin_time: str, original_filename: str) -> None:
         c = self.conn.cursor()
         try:
+            HDD_flag = 1
+            RMB_flag = 0
             c.execute(
                 """
-                INSERT INTO videos (file_id, title, author, publish_date, stored_path, checkin_time, original_filename)
-                VALUES (?, ?, ?, ?, ?, ?, ?)
+                INSERT INTO Videos(file_id, title, author, publish_date, HDD_flag, RMB_flag, checkin_time, original_filename)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?)
                 """,
-                (file_id, title, author, publish_date, stored_path, checkin_time, original_filename),
+                (file_id, title, author, publish_date, HDD_flag, RMB_flag, checkin_time, original_filename),
+            )
+            
+            # HDD テーブルにデータを追加
+            # ただし、テーブル作成時に「FOREIGN KEY (file_id) REFERENCES Videos(file_id)」を実行済み。
+            c.execute(
+                """
+                INSERT INTO HDD(file_id, folder_path)
+                VALUES (?, ?)
+                """,
+                (file_id, folder_path),
             )
             self.conn.commit()
         except sqlite3.IntegrityError as e:
@@ -245,7 +257,8 @@ def move_to_date_folder(p: pathlib.Path, root: pathlib.Path, dt: Optional[dateti
     dd = dt.strftime("%d")
     dest_dir = pathlib.Path(root) / yyyy / mm / dd
     dest_dir.mkdir(parents=True, exist_ok=True)
-    target = dest_dir / p.name
+    # target = dest_dir / p.name
+    target = dest_dir
     target = _unique_target_path(target, allow_suffix=True)
     shutil.move(str(p), str(target))
     return target
@@ -282,9 +295,11 @@ def process_file(p: pathlib.Path, dest_root: pathlib.Path, db: Optional[DBWriter
 
     # 2) Move to YYYY/MM/DD folder under dest_root
     if dry_run:
-        moved_path = pathlib.Path(dest_root) / checkin_time.strftime("%Y") / checkin_time.strftime("%m") / checkin_time.strftime("%d") / new_path.name
+    #    moved_path = pathlib.Path(dest_root) / checkin_time.strftime("%Y") / checkin_time.strftime("%m") / checkin_time.strftime("%d") / new_path.name
+        moved_path = pathlib.Path(dest_root) / checkin_time.strftime("%Y") / checkin_time.strftime("%m") / checkin_time.strftime("%d") 
         logging.info("[DRY] Would move to: %s", moved_path)
     else:
+    #    moved_path = move_to_date_folder(new_path, dest_root, dt=checkin_time)
         moved_path = move_to_date_folder(new_path, dest_root, dt=checkin_time)
         logging.info("Moved to: %s", moved_path)
 
@@ -295,7 +310,7 @@ def process_file(p: pathlib.Path, dest_root: pathlib.Path, db: Optional[DBWriter
             title=parsed.title,
             author=parsed.author,
             publish_date=parsed.publish_date,
-            stored_path=str(moved_path),
+            folder_path=str(moved_path),
             checkin_time=checkin_time.isoformat(),
             original_filename=p.name,
         )
@@ -307,13 +322,13 @@ def process_file(p: pathlib.Path, dest_root: pathlib.Path, db: Optional[DBWriter
         "title": parsed.title or "",
         "author": parsed.author or "",
         "publish_date": parsed.publish_date or "",
-        "stored_path": str(moved_path),
+        "folder_path": str(moved_path),
     }
 
 
 def main(argv: Optional[List[str]] = None):
     parser = argparse.ArgumentParser(description="Check-in video files in current directory")
-    parser.add_argument("--db", type=str, default="./videos.db", help="SQLite DB path (default: ./videos.db)")
+    parser.add_argument("--db", type=str, default="./database/videos.db", help="SQLite DB path (default: ./database/videos.db)")
     parser.add_argument("--root", type=str, default=".", help='Root folder to store YYYY/MM/DD (default: current dir)')
     parser.add_argument("--pattern", type=str, default="*", help='glob pattern to select files (default: "*")')
     parser.add_argument("--ext", type=str, nargs="*", default=None, help='extension filter, e.g. --ext mp4 mkv')

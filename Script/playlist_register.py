@@ -11,7 +11,8 @@ DB_DIR = os.path.join(BASE_DIR, 'database')
 THUMB_DIR = os.path.join(BASE_DIR, 'thumbnail')
 
 VIDEOS_DB = os.path.join(DB_DIR, 'videos.db')
-PLAYLIST_DB = os.path.join(DB_DIR, 'playlist.db')
+# PLAYLIST_DB = os.path.join(DB_DIR, 'playlist.db')
+PLAYLIST_DB = os.path.join(DB_DIR, 'videos.db')
 
 
 def init_playlist_db():

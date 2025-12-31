@@ -1,0 +1,67 @@
+[checkin_tool.py] [2025-12-31 23:05:17] [INFO] スクリプトを開始しました
+[checkin_tool.py] [2025-12-31 23:05:17] [INFO] 変数の初期化を開始
+[checkin_tool.py] [2025-12-31 23:05:17] [INFO] 対象ファイルの確認
+[checkin_tool.py] [2025-12-31 23:05:17] [INFO] Videos.DB の確認を実行 E:\MOVIE_MNG\database\videos.db
+[db.py] [2025-12-31 23:05:17] [INFO] DBのオープン処理開始
+[checkin_tool.py] [2025-12-31 23:05:17] [INFO] 対象ファイル名。E:\MOVIE_MNG\Checkin\51 High heeled mud bath [NcxjAx7f9Ms](swamp girl@swampgirl-88,20251222).mp4
+[checkin_tool.py] [2025-12-31 23:05:17] [INFO] parsed = ParsedMeta(title='51 High heeled mud bath [NcxjAx7f9Ms]', author='swamp girl@swampgirl-88', publish_date='20251222')
+[checkin_tool.py] [2025-12-31 23:05:17] [INFO] ファイルのチェックサム計算を開始。E:\MOVIE_MNG\checkin\51 High heeled mud bath [NcxjAx7f9Ms](swamp girl@swampgirl-88,20251222).mp4
+[checkin_tool.py] [2025-12-31 23:05:18] [INFO] ファイルのチェックサム値（62e0568c3f628ffd6612c6f5b11dd693f3a8cd06fbe60ff1eb182f2e748e7303)
+[checkin_tool.py] [2025-12-31 23:05:18] [INFO] Videosテーブルからchecksum値を検索。
+[checkin_tool.py] [2025-12-31 23:05:18] [INFO] Videosテーブルからchecksum値を検索結果 ((13, '5jegn6z74di', '51 High heeled mud bath [NcxjAx7f9Ms]', 'swamp girl@swampgirl-88', '20251222', 1, 0, '2025-12-31T23:02:54.310889', '51 High heeled mud bath [NcxjAx7f9Ms](swamp girl@swampgirl-88,20251222).mp4', '62e0568c3f628ffd6612c6f5b11dd693f3a8cd06fbe60ff1eb182f2e748e7303'))。
+[checkin_tool.py] [2025-12-31 23:05:18] [INFO] 対象ファイルが、登録されています。処理をスキップします。
+[checkin_tool.py] [2025-12-31 23:05:18] [INFO] データ追加処理はスキップします。
+[checkin_tool.py] [2025-12-31 23:05:18] [INFO] スクリプトを終了しました
+[checkin_tool.py] [2025-12-31 23:44:55] [INFO] スクリプトを開始しました
+[checkin_tool.py] [2025-12-31 23:44:55] [INFO] 変数の初期化を開始
+[checkin_tool.py] [2025-12-31 23:44:55] [INFO] 対象ファイルの確認
+[checkin_tool.py] [2025-12-31 23:44:55] [INFO] Videos.DB の確認を実行 E:\MOVIE_MNG\database\videos.db
+[db.py] [2025-12-31 23:44:55] [INFO] DBのオープン処理開始
+[checkin_tool.py] [2025-12-31 23:44:55] [INFO] 対象ファイル名。E:\MOVIE_MNG\Checkin\51 High heeled mud bath [NcxjAx7f9Ms](swamp girl@swampgirl-88,20251222).mp4
+[checkin_tool.py] [2025-12-31 23:44:55] [INFO] parsed = ParsedMeta(title='51 High heeled mud bath [NcxjAx7f9Ms]', author='swamp girl@swampgirl-88', publish_date='20251222')
+[checkin_tool.py] [2025-12-31 23:44:55] [INFO] ファイルのチェックサム計算を開始。E:\MOVIE_MNG\checkin\51 High heeled mud bath [NcxjAx7f9Ms](swamp girl@swampgirl-88,20251222).mp4
+[checkin_tool.py] [2025-12-31 23:44:55] [INFO] ファイルのチェックサム値（62e0568c3f628ffd6612c6f5b11dd693f3a8cd06fbe60ff1eb182f2e748e7303)
+[checkin_tool.py] [2025-12-31 23:44:55] [INFO] Videosテーブルからchecksum値を検索。
+[checkin_tool.py] [2025-12-31 23:44:55] [INFO] Videosテーブルからchecksum値を検索結果 ((13, '5jegn6z74di', '51 High heeled mud bath [NcxjAx7f9Ms]', 'swamp girl@swampgirl-88', '20251222', 1, 0, '2025-12-31T23:02:54.310889', '51 High heeled mud bath [NcxjAx7f9Ms](swamp girl@swampgirl-88,20251222).mp4', '62e0568c3f628ffd6612c6f5b11dd693f3a8cd06fbe60ff1eb182f2e748e7303'))。
+[checkin_tool.py] [2025-12-31 23:44:55] [INFO] 対象ファイルが、登録されています。処理をスキップします。
+[checkin_tool.py] [2025-12-31 23:44:55] [INFO] データ追加処理はスキップします。
+[checkin_tool.py] [2025-12-31 23:44:55] [INFO] スクリプトを終了しました
+[checkin_tool.py] [2025-12-31 23:45:26] [INFO] スクリプトを開始しました
+[checkin_tool.py] [2025-12-31 23:45:26] [INFO] 変数の初期化を開始
+[checkin_tool.py] [2025-12-31 23:45:26] [INFO] 対象ファイルの確認
+[checkin_tool.py] [2025-12-31 23:45:26] [INFO] Videos.DB の確認を実行 E:\MOVIE_MNG\database\videos.db
+[db.py] [2025-12-31 23:45:26] [INFO] DBのオープン処理開始
+[checkin_tool.py] [2025-12-31 23:45:26] [INFO] 対象ファイル名。E:\MOVIE_MNG\Checkin\51 High heeled mud bath [NcxjAx7f9Ms](swamp girl@swampgirl-88,20251222).mp4
+[checkin_tool.py] [2025-12-31 23:45:26] [INFO] parsed = ParsedMeta(title='51 High heeled mud bath [NcxjAx7f9Ms]', author='swamp girl@swampgirl-88', publish_date='20251222')
+[checkin_tool.py] [2025-12-31 23:45:27] [INFO] ファイルのチェックサム計算を開始。E:\MOVIE_MNG\checkin\51 High heeled mud bath [NcxjAx7f9Ms](swamp girl@swampgirl-88,20251222).mp4
+[checkin_tool.py] [2025-12-31 23:45:27] [INFO] ファイルのチェックサム値（62e0568c3f628ffd6612c6f5b11dd693f3a8cd06fbe60ff1eb182f2e748e7303)
+[checkin_tool.py] [2025-12-31 23:45:27] [INFO] Videosテーブルからchecksum値を検索。
+[checkin_tool.py] [2025-12-31 23:45:27] [INFO] Videosテーブルからchecksum値を検索結果 (None)。
+[checkin_tool.py] [2025-12-31 23:45:27] [INFO] 対象ファイルはまだ、登録されていません。処理を継続します。
+[file_operation.py] [2025-12-31 23:45:27] [INFO] 移動前ファイルパス名 E:\MOVIE_MNG\checkin\51 High heeled mud bath [NcxjAx7f9Ms](swamp girl@swampgirl-88,20251222).mp4
+[file_operation.py] [2025-12-31 23:45:27] [INFO] 移動先ファイルパス名 E:\MOVIE_MNG\media\2025\12\31\5jegn71qp7o.mp4
+[checkin_tool.py] [2025-12-31 23:45:27] [INFO] データ 51 High heeled mud bath [NcxjAx7f9Ms] の追加処理開始
+[db.py] [2025-12-31 23:45:27] [INFO] DBのオープン処理開始
+[checkin_tool.py] [2025-12-31 23:45:27] [Error] データのインサート処理でエラーが発生しました。 list index out of range
+[checkin_tool.py] [2025-12-31 23:45:27] [INFO] 移動したファイルを元に戻します。
+[checkin_tool.py] [2025-12-31 23:48:15] [INFO] スクリプトを開始しました
+[checkin_tool.py] [2025-12-31 23:48:15] [INFO] 変数の初期化を開始
+[checkin_tool.py] [2025-12-31 23:48:15] [INFO] 対象ファイルの確認
+[checkin_tool.py] [2025-12-31 23:48:15] [INFO] Videos.DB の確認を実行 E:\MOVIE_MNG\database\videos.db
+[db.py] [2025-12-31 23:48:15] [INFO] DBのオープン処理開始
+[checkin_tool.py] [2025-12-31 23:48:15] [INFO] 対象ファイル名。E:\MOVIE_MNG\Checkin\51 High heeled mud bath [NcxjAx7f9Ms](swamp girl@swampgirl-88,20251222).mp4
+[checkin_tool.py] [2025-12-31 23:48:15] [INFO] parsed = ParsedMeta(title='51 High heeled mud bath [NcxjAx7f9Ms]', author='swamp girl@swampgirl-88', publish_date='20251222')
+[checkin_tool.py] [2025-12-31 23:48:15] [INFO] ファイルのチェックサム計算を開始。E:\MOVIE_MNG\checkin\51 High heeled mud bath [NcxjAx7f9Ms](swamp girl@swampgirl-88,20251222).mp4
+[checkin_tool.py] [2025-12-31 23:48:15] [INFO] ファイルのチェックサム値（62e0568c3f628ffd6612c6f5b11dd693f3a8cd06fbe60ff1eb182f2e748e7303)
+[checkin_tool.py] [2025-12-31 23:48:15] [INFO] Videosテーブルからchecksum値を検索。
+[checkin_tool.py] [2025-12-31 23:48:15] [INFO] Videosテーブルからchecksum値を検索結果 (None)。
+[checkin_tool.py] [2025-12-31 23:48:15] [INFO] 対象ファイルはまだ、登録されていません。処理を継続します。
+[file_operation.py] [2025-12-31 23:48:15] [INFO] 移動前ファイルパス名 E:\MOVIE_MNG\checkin\51 High heeled mud bath [NcxjAx7f9Ms](swamp girl@swampgirl-88,20251222).mp4
+[file_operation.py] [2025-12-31 23:48:15] [INFO] 移動先ファイルパス名 E:\MOVIE_MNG\media\2025\12\31\5jegn71wvgc.mp4
+[checkin_tool.py] [2025-12-31 23:48:15] [INFO] データ 51 High heeled mud bath [NcxjAx7f9Ms] の追加処理開始
+[db.py] [2025-12-31 23:48:15] [INFO] DBのオープン処理開始
+[checkin_tool.py] [2025-12-31 23:48:15] [Error] データのインサート処理でエラーが発生しました。 list index out of range
+[checkin_tool.py] [2025-12-31 23:48:15] [INFO] 移動したファイルを元に戻します。
+[checkin_tool.py] [2025-12-31 23:48:15] [INFO] 戻したファイル (E:\MOVIE_MNG\media\2025\12\31\5jegn71wvgc.mp4)
+[checkin_tool.py] [2025-12-31 23:48:15] [INFO] スクリプトを終了しました
+[checkin_tool.py] [2025-12-31 23:48:15] [INFO] スクリプトを終了しました
