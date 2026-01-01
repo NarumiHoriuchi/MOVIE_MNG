@@ -85,10 +85,10 @@ def process_file(p: pathlib.Path, dest_root: pathlib.Path, db: Optional[DBWriter
     #    moved_path = pathlib.Path(dest_root) / checkin_time.strftime("%Y") / checkin_time.strftime("%m") / checkin_time.strftime("%d") / new_path.name
     if parsed.publish_date:
         # アップロード日を取得できた場合
-        # print(parsed.publish_date)
         dt = datetime.strptime(parsed.publish_date, "%Y%m%d")
-    # log.logprint(script_name, f"ファイルを移動します: {moved_path}")
-    #    moved_path = move_to_date_folder(new_path, dest_root, dt=checkin_time)
+    else:
+        dt = file_operation.file_mtime_get(CHECKIN_DIR, p.name)
+        log.logprint(script_name, f"動画登録日をファイルの更新日時（取得日）で登録します ({dt})")
     moved_path = pathlib.Path(dest_root) / checkin_time.strftime("%Y") / checkin_time.strftime("%m") / checkin_time.strftime("%d") 
     # print(f"moved_oath = {moved_path}")
     

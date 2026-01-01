@@ -79,3 +79,13 @@ def move_to_date_folder(source_dir, orig_name, moved_path, new_name) -> str:
     log.logprint(script_name, f"移動先ファイルパス名 {target_full_path}")
     shutil.move(orig_full_path, target_full_path)
     return 
+
+
+def file_mtime_get(source_dir, orig_name) -> datetime:
+    path = source_dir / orig_name
+    
+    mtime = os.path.getmtime(path)
+    dt = datetime.fromtimestamp(mtime)
+    
+    return dt
+    
