@@ -1,0 +1,34 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background: #111;
+  color: #eee;
+}
+
+header {
+  padding: 1rem;
+  background: #222;
+}
+
+#video-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 200px);
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.video-card {
+  background: #1e1e1e;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.video-card img {
+  width: 100%;
+  display: block;
+}
+
+.video-card .info {
+  padding: 0.5rem;
+  font-size: 0.9rem;
+}

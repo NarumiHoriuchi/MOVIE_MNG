@@ -3,7 +3,7 @@ import os
 import subprocess
 from datetime import datetime
 # check_thumbnail.py を読み込む
-import check_thumbnail
+# import check_thumbnail
 
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
@@ -11,7 +11,8 @@ DB_DIR = os.path.join(BASE_DIR, 'database')
 THUMB_DIR = os.path.join(BASE_DIR, 'thumbnail')
 
 VIDEOS_DB = os.path.join(DB_DIR, 'videos.db')
-PLAYLIST_DB = os.path.join(DB_DIR, 'playlist.db')
+# PLAYLIST_DB = os.path.join(DB_DIR, 'playlist.db')
+PLAYLIST_DB = os.path.join(DB_DIR, 'videos.db')
 
 
 def init_playlist_db():
@@ -66,11 +67,13 @@ def create_thumbnail(video_path, created_at):
     thumb_name = f"{base}.png"
     thumb_path = os.path.join(out_dir, thumb_name)
 
-    CHK_thumb = check_thumbnail.has_cover_image(video_path)
-    
     # カバー画像を取り出す
     # ffmpeg -i input.mp4 -map disp:attached_pic -c copy thumbnail.png
-    if CHK_thumb:
+    cmd = ["ffmpeg", "-i", video_path]
+    proc = subprocess.run(cmd, stderr=subprocess.PIPE, stdout=subprocess.PIPE, text=True)
+    
+    output = proc.stderr  # ffmpeg は基本的に stderr に情報を出す
+    if "attached pic" in output:
         cmd = [
             'ffmpeg',
             '-i', video_path,
