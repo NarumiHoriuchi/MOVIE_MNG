@@ -89,6 +89,7 @@ def process_file(p: pathlib.Path, dest_root: pathlib.Path, db: Optional[DBWriter
     else:
         dt = file_operation.file_mtime_get(CHECKIN_DIR, p.name)
         log.logprint(script_name, f"動画登録日をファイルの更新日時（取得日）で登録します ({dt})")
+    parsed.publish_date = dt.isoformat(sep=' ')
     moved_path = pathlib.Path(dest_root) / checkin_time.strftime("%Y") / checkin_time.strftime("%m") / checkin_time.strftime("%d") 
     # print(f"moved_oath = {moved_path}")
     
@@ -149,6 +150,7 @@ def main(argv: Optional[List[str]] = None):
                 print(db_data)
                 log.logprint(script_name, f"データ {db_data[1]} の追加処理開始")
                 dbw = db.videosDBWriter(VIDEO_DB_PATH)
+                #                       file_id     title        author      
                 ret = dbw.insert_video(db_data[0], db_data[1], db_data[2], db_data[3], db_data[4], db_data[5], db_data[6], db_data[7])
                 log.logprint(script_name, f"データ {db_data[1]} の追加処理終了")
                 res = {

@@ -1,150 +1,95 @@
-[checkin_tool.py] [2025-12-31 23:05:17] [INFO] スクリプトを開始しました
-[checkin_tool.py] [2025-12-31 23:05:17] [INFO] 変数の初期化を開始
-[checkin_tool.py] [2025-12-31 23:05:17] [INFO] 対象ファイルの確認
-[checkin_tool.py] [2025-12-31 23:05:17] [INFO] Videos.DB の確認を実行 E:\MOVIE_MNG\database\videos.db
-[db.py] [2025-12-31 23:05:17] [INFO] DBのオープン処理開始
-[checkin_tool.py] [2025-12-31 23:05:17] [INFO] 対象ファイル名。E:\MOVIE_MNG\Checkin\51 High heeled mud bath [NcxjAx7f9Ms](swamp girl@swampgirl-88,20251222).mp4
-[checkin_tool.py] [2025-12-31 23:05:17] [INFO] parsed = ParsedMeta(title='51 High heeled mud bath [NcxjAx7f9Ms]', author='swamp girl@swampgirl-88', publish_date='20251222')
-[checkin_tool.py] [2025-12-31 23:05:17] [INFO] ファイルのチェックサム計算を開始。E:\MOVIE_MNG\checkin\51 High heeled mud bath [NcxjAx7f9Ms](swamp girl@swampgirl-88,20251222).mp4
-[checkin_tool.py] [2025-12-31 23:05:18] [INFO] ファイルのチェックサム値（62e0568c3f628ffd6612c6f5b11dd693f3a8cd06fbe60ff1eb182f2e748e7303)
-[checkin_tool.py] [2025-12-31 23:05:18] [INFO] Videosテーブルからchecksum値を検索。
-[checkin_tool.py] [2025-12-31 23:05:18] [INFO] Videosテーブルからchecksum値を検索結果 ((13, '5jegn6z74di', '51 High heeled mud bath [NcxjAx7f9Ms]', 'swamp girl@swampgirl-88', '20251222', 1, 0, '2025-12-31T23:02:54.310889', '51 High heeled mud bath [NcxjAx7f9Ms](swamp girl@swampgirl-88,20251222).mp4', '62e0568c3f628ffd6612c6f5b11dd693f3a8cd06fbe60ff1eb182f2e748e7303'))。
-[checkin_tool.py] [2025-12-31 23:05:18] [INFO] 対象ファイルが、登録されています。処理をスキップします。
-[checkin_tool.py] [2025-12-31 23:05:18] [INFO] データ追加処理はスキップします。
-[checkin_tool.py] [2025-12-31 23:05:18] [INFO] スクリプトを終了しました
-[checkin_tool.py] [2025-12-31 23:44:55] [INFO] スクリプトを開始しました
-[checkin_tool.py] [2025-12-31 23:44:55] [INFO] 変数の初期化を開始
-[checkin_tool.py] [2025-12-31 23:44:55] [INFO] 対象ファイルの確認
-[checkin_tool.py] [2025-12-31 23:44:55] [INFO] Videos.DB の確認を実行 E:\MOVIE_MNG\database\videos.db
-[db.py] [2025-12-31 23:44:55] [INFO] DBのオープン処理開始
-[checkin_tool.py] [2025-12-31 23:44:55] [INFO] 対象ファイル名。E:\MOVIE_MNG\Checkin\51 High heeled mud bath [NcxjAx7f9Ms](swamp girl@swampgirl-88,20251222).mp4
-[checkin_tool.py] [2025-12-31 23:44:55] [INFO] parsed = ParsedMeta(title='51 High heeled mud bath [NcxjAx7f9Ms]', author='swamp girl@swampgirl-88', publish_date='20251222')
-[checkin_tool.py] [2025-12-31 23:44:55] [INFO] ファイルのチェックサム計算を開始。E:\MOVIE_MNG\checkin\51 High heeled mud bath [NcxjAx7f9Ms](swamp girl@swampgirl-88,20251222).mp4
-[checkin_tool.py] [2025-12-31 23:44:55] [INFO] ファイルのチェックサム値（62e0568c3f628ffd6612c6f5b11dd693f3a8cd06fbe60ff1eb182f2e748e7303)
-[checkin_tool.py] [2025-12-31 23:44:55] [INFO] Videosテーブルからchecksum値を検索。
-[checkin_tool.py] [2025-12-31 23:44:55] [INFO] Videosテーブルからchecksum値を検索結果 ((13, '5jegn6z74di', '51 High heeled mud bath [NcxjAx7f9Ms]', 'swamp girl@swampgirl-88', '20251222', 1, 0, '2025-12-31T23:02:54.310889', '51 High heeled mud bath [NcxjAx7f9Ms](swamp girl@swampgirl-88,20251222).mp4', '62e0568c3f628ffd6612c6f5b11dd693f3a8cd06fbe60ff1eb182f2e748e7303'))。
-[checkin_tool.py] [2025-12-31 23:44:55] [INFO] 対象ファイルが、登録されています。処理をスキップします。
-[checkin_tool.py] [2025-12-31 23:44:55] [INFO] データ追加処理はスキップします。
-[checkin_tool.py] [2025-12-31 23:44:55] [INFO] スクリプトを終了しました
-[checkin_tool.py] [2025-12-31 23:45:26] [INFO] スクリプトを開始しました
-[checkin_tool.py] [2025-12-31 23:45:26] [INFO] 変数の初期化を開始
-[checkin_tool.py] [2025-12-31 23:45:26] [INFO] 対象ファイルの確認
-[checkin_tool.py] [2025-12-31 23:45:26] [INFO] Videos.DB の確認を実行 E:\MOVIE_MNG\database\videos.db
-[db.py] [2025-12-31 23:45:26] [INFO] DBのオープン処理開始
-[checkin_tool.py] [2025-12-31 23:45:26] [INFO] 対象ファイル名。E:\MOVIE_MNG\Checkin\51 High heeled mud bath [NcxjAx7f9Ms](swamp girl@swampgirl-88,20251222).mp4
-[checkin_tool.py] [2025-12-31 23:45:26] [INFO] parsed = ParsedMeta(title='51 High heeled mud bath [NcxjAx7f9Ms]', author='swamp girl@swampgirl-88', publish_date='20251222')
-[checkin_tool.py] [2025-12-31 23:45:27] [INFO] ファイルのチェックサム計算を開始。E:\MOVIE_MNG\checkin\51 High heeled mud bath [NcxjAx7f9Ms](swamp girl@swampgirl-88,20251222).mp4
-[checkin_tool.py] [2025-12-31 23:45:27] [INFO] ファイルのチェックサム値（62e0568c3f628ffd6612c6f5b11dd693f3a8cd06fbe60ff1eb182f2e748e7303)
-[checkin_tool.py] [2025-12-31 23:45:27] [INFO] Videosテーブルからchecksum値を検索。
-[checkin_tool.py] [2025-12-31 23:45:27] [INFO] Videosテーブルからchecksum値を検索結果 (None)。
-[checkin_tool.py] [2025-12-31 23:45:27] [INFO] 対象ファイルはまだ、登録されていません。処理を継続します。
-[file_operation.py] [2025-12-31 23:45:27] [INFO] 移動前ファイルパス名 E:\MOVIE_MNG\checkin\51 High heeled mud bath [NcxjAx7f9Ms](swamp girl@swampgirl-88,20251222).mp4
-[file_operation.py] [2025-12-31 23:45:27] [INFO] 移動先ファイルパス名 E:\MOVIE_MNG\media\2025\12\31\5jegn71qp7o.mp4
-[checkin_tool.py] [2025-12-31 23:45:27] [INFO] データ 51 High heeled mud bath [NcxjAx7f9Ms] の追加処理開始
-[db.py] [2025-12-31 23:45:27] [INFO] DBのオープン処理開始
-[checkin_tool.py] [2025-12-31 23:45:27] [Error] データのインサート処理でエラーが発生しました。 list index out of range
-[checkin_tool.py] [2025-12-31 23:45:27] [INFO] 移動したファイルを元に戻します。
-[checkin_tool.py] [2025-12-31 23:48:15] [INFO] スクリプトを開始しました
-[checkin_tool.py] [2025-12-31 23:48:15] [INFO] 変数の初期化を開始
-[checkin_tool.py] [2025-12-31 23:48:15] [INFO] 対象ファイルの確認
-[checkin_tool.py] [2025-12-31 23:48:15] [INFO] Videos.DB の確認を実行 E:\MOVIE_MNG\database\videos.db
-[db.py] [2025-12-31 23:48:15] [INFO] DBのオープン処理開始
-[checkin_tool.py] [2025-12-31 23:48:15] [INFO] 対象ファイル名。E:\MOVIE_MNG\Checkin\51 High heeled mud bath [NcxjAx7f9Ms](swamp girl@swampgirl-88,20251222).mp4
-[checkin_tool.py] [2025-12-31 23:48:15] [INFO] parsed = ParsedMeta(title='51 High heeled mud bath [NcxjAx7f9Ms]', author='swamp girl@swampgirl-88', publish_date='20251222')
-[checkin_tool.py] [2025-12-31 23:48:15] [INFO] ファイルのチェックサム計算を開始。E:\MOVIE_MNG\checkin\51 High heeled mud bath [NcxjAx7f9Ms](swamp girl@swampgirl-88,20251222).mp4
-[checkin_tool.py] [2025-12-31 23:48:15] [INFO] ファイルのチェックサム値（62e0568c3f628ffd6612c6f5b11dd693f3a8cd06fbe60ff1eb182f2e748e7303)
-[checkin_tool.py] [2025-12-31 23:48:15] [INFO] Videosテーブルからchecksum値を検索。
-[checkin_tool.py] [2025-12-31 23:48:15] [INFO] Videosテーブルからchecksum値を検索結果 (None)。
-[checkin_tool.py] [2025-12-31 23:48:15] [INFO] 対象ファイルはまだ、登録されていません。処理を継続します。
-[file_operation.py] [2025-12-31 23:48:15] [INFO] 移動前ファイルパス名 E:\MOVIE_MNG\checkin\51 High heeled mud bath [NcxjAx7f9Ms](swamp girl@swampgirl-88,20251222).mp4
-[file_operation.py] [2025-12-31 23:48:15] [INFO] 移動先ファイルパス名 E:\MOVIE_MNG\media\2025\12\31\5jegn71wvgc.mp4
-[checkin_tool.py] [2025-12-31 23:48:15] [INFO] データ 51 High heeled mud bath [NcxjAx7f9Ms] の追加処理開始
-[db.py] [2025-12-31 23:48:15] [INFO] DBのオープン処理開始
-[checkin_tool.py] [2025-12-31 23:48:15] [Error] データのインサート処理でエラーが発生しました。 list index out of range
-[checkin_tool.py] [2025-12-31 23:48:15] [INFO] 移動したファイルを元に戻します。
-[checkin_tool.py] [2025-12-31 23:48:15] [INFO] 戻したファイル (E:\MOVIE_MNG\media\2025\12\31\5jegn71wvgc.mp4)
-[checkin_tool.py] [2025-12-31 23:48:15] [INFO] スクリプトを終了しました
-[checkin_tool.py] [2025-12-31 23:48:15] [INFO] スクリプトを終了しました
-[checkin_tool.py] [2026-01-01 21:12:18] [INFO] スクリプトを開始しました
-[checkin_tool.py] [2026-01-01 21:12:18] [INFO] 変数の初期化を開始
-[checkin_tool.py] [2026-01-01 21:12:18] [INFO] 対象ファイルの確認
-[checkin_tool.py] [2026-01-01 21:12:18] [INFO] Videos.DB の確認を実行 E:\MOVIE_MNG\database\videos.db
-[db.py] [2026-01-01 21:12:18] [INFO] DBのオープン処理開始
-[checkin_tool.py] [2026-01-01 21:12:18] [INFO] 対象ファイル名。E:\MOVIE_MNG\Checkin\wet mary jane 1..mp4
-[checkin_tool.py] [2026-01-01 21:12:18] [INFO] parsed = ParsedMeta(title='wet mary jane 1.', author=None, publish_date=None)
-[checkin_tool.py] [2026-01-01 21:12:18] [INFO] ファイルのチェックサム計算を開始。E:\MOVIE_MNG\checkin\wet mary jane 1..mp4
-[checkin_tool.py] [2026-01-01 21:12:19] [INFO] ファイルのチェックサム値（5e7b2ad57e13a4bcd7e3aee5dc61b4cd34ea1d0654ea31d10173b4f27e2e5835)
-[checkin_tool.py] [2026-01-01 21:12:19] [INFO] Videosテーブルからchecksum値を検索。
-[checkin_tool.py] [2026-01-01 21:12:19] [INFO] Videosテーブルからchecksum値を検索結果 (None)。
-[checkin_tool.py] [2026-01-01 21:12:19] [INFO] 対象ファイルはまだ、登録されていません。処理を継続します。
-[file_operation.py] [2026-01-01 21:12:19] [INFO] 移動前ファイルパス名 E:\MOVIE_MNG\checkin\wet mary jane 1..mp4
-[file_operation.py] [2026-01-01 21:12:19] [INFO] 移動先ファイルパス名 E:\MOVIE_MNG\media\2026\01\01\5jhlu08uik8.mp4
-[checkin_tool.py] [2026-01-01 21:12:19] [INFO] データ wet mary jane 1. の追加処理開始
-[db.py] [2026-01-01 21:12:19] [INFO] DBのオープン処理開始
-[checkin_tool.py] [2026-01-01 21:12:19] [INFO] データ wet mary jane 1. の追加処理終了
-[checkin_tool.py] [2026-01-01 21:12:19] [INFO] スクリプトを終了しました
-[checkin_tool.py] [2026-01-01 23:00:28] [INFO] スクリプトを開始しました
-[checkin_tool.py] [2026-01-01 23:00:28] [INFO] 変数の初期化を開始
-[checkin_tool.py] [2026-01-01 23:00:28] [INFO] 対象ファイルの確認
-[checkin_tool.py] [2026-01-01 23:00:28] [INFO] Videos.DB の確認を実行 E:\MOVIE_MNG\database\videos.db
-[db.py] [2026-01-01 23:00:28] [INFO] DBのオープン処理開始
-[checkin_tool.py] [2026-01-01 23:00:28] [INFO] 対象ファイル名。E:\MOVIE_MNG\Checkin\wet mary jane 1..mp4
-[checkin_tool.py] [2026-01-01 23:00:28] [INFO] parsed = ParsedMeta(title='wet mary jane 1.', author=None, publish_date=None)
-[checkin_tool.py] [2026-01-01 23:00:28] [INFO] ファイルのチェックサム計算を開始。E:\MOVIE_MNG\checkin\wet mary jane 1..mp4
-[checkin_tool.py] [2026-01-01 23:00:29] [INFO] ファイルのチェックサム値（5e7b2ad57e13a4bcd7e3aee5dc61b4cd34ea1d0654ea31d10173b4f27e2e5835)
-[checkin_tool.py] [2026-01-01 23:00:29] [INFO] Videosテーブルからchecksum値を検索。
-[checkin_tool.py] [2026-01-01 23:00:29] [INFO] Videosテーブルからchecksum値を検索結果 (None)。
-[checkin_tool.py] [2026-01-01 23:00:29] [INFO] 対象ファイルはまだ、登録されていません。処理を継続します。
-[file_operation.py] [2026-01-01 23:00:29] [INFO] 移動前ファイルパス名 E:\MOVIE_MNG\checkin\wet mary jane 1..mp4
-[file_operation.py] [2026-01-01 23:00:29] [INFO] 移動先ファイルパス名 E:\MOVIE_MNG\media\2026\01\01\5jhlu0k1opz.mp4
-[checkin_tool.py] [2026-01-01 23:00:29] [INFO] データ wet mary jane 1. の追加処理開始
-[db.py] [2026-01-01 23:00:29] [INFO] DBのオープン処理開始
-[checkin_tool.py] [2026-01-01 23:00:29] [INFO] データ wet mary jane 1. の追加処理終了
-[checkin_tool.py] [2026-01-01 23:00:29] [INFO] スクリプトを終了しました
-[checkin_tool.py] [2026-01-01 23:04:26] [INFO] スクリプトを開始しました
-[checkin_tool.py] [2026-01-01 23:04:26] [INFO] 変数の初期化を開始
-[checkin_tool.py] [2026-01-01 23:04:26] [INFO] 対象ファイルの確認
-[checkin_tool.py] [2026-01-01 23:04:26] [INFO] Videos.DB の確認を実行 E:\MOVIE_MNG\database\videos.db
-[db.py] [2026-01-01 23:04:26] [INFO] DBのオープン処理開始
-[checkin_tool.py] [2026-01-01 23:04:26] [INFO] 対象ファイル名。E:\MOVIE_MNG\Checkin\wet mary jane 1..mp4
-[checkin_tool.py] [2026-01-01 23:04:26] [INFO] parsed = ParsedMeta(title='wet mary jane 1.', author=None, publish_date=None)
-[checkin_tool.py] [2026-01-01 23:04:26] [INFO] 動画登録日をファイルの作成日で登録します (2026-01-01 23:03:28.733776)
-[checkin_tool.py] [2026-01-01 23:04:26] [INFO] ファイルのチェックサム計算を開始。E:\MOVIE_MNG\checkin\wet mary jane 1..mp4
-[checkin_tool.py] [2026-01-01 23:04:27] [INFO] ファイルのチェックサム値（5e7b2ad57e13a4bcd7e3aee5dc61b4cd34ea1d0654ea31d10173b4f27e2e5835)
-[checkin_tool.py] [2026-01-01 23:04:27] [INFO] Videosテーブルからchecksum値を検索。
-[checkin_tool.py] [2026-01-01 23:04:27] [INFO] Videosテーブルからchecksum値を検索結果 (None)。
-[checkin_tool.py] [2026-01-01 23:04:27] [INFO] 対象ファイルはまだ、登録されていません。処理を継続します。
-[file_operation.py] [2026-01-01 23:04:27] [INFO] 移動前ファイルパス名 E:\MOVIE_MNG\checkin\wet mary jane 1..mp4
-[file_operation.py] [2026-01-01 23:04:27] [INFO] 移動先ファイルパス名 E:\MOVIE_MNG\media\2026\01\01\5jhlu0ka7qq.mp4
-[checkin_tool.py] [2026-01-01 23:04:27] [INFO] データ wet mary jane 1. の追加処理開始
-[db.py] [2026-01-01 23:04:27] [INFO] DBのオープン処理開始
-[checkin_tool.py] [2026-01-01 23:04:27] [INFO] データ wet mary jane 1. の追加処理終了
-[checkin_tool.py] [2026-01-01 23:04:27] [INFO] スクリプトを終了しました
-[checkin_tool.py] [2026-01-01 23:12:25] [INFO] スクリプトを開始しました
-[checkin_tool.py] [2026-01-01 23:12:25] [INFO] 変数の初期化を開始
-[checkin_tool.py] [2026-01-01 23:12:25] [INFO] 対象ファイルの確認
-[checkin_tool.py] [2026-01-01 23:12:25] [INFO] Videos.DB の確認を実行 E:\MOVIE_MNG\database\videos.db
-[db.py] [2026-01-01 23:12:25] [INFO] DBのオープン処理開始
-[checkin_tool.py] [2026-01-01 23:12:25] [INFO] 対象ファイル名。E:\MOVIE_MNG\Checkin\wet mary jane 1..mp4
-[checkin_tool.py] [2026-01-01 23:12:25] [INFO] parsed = ParsedMeta(title='wet mary jane 1.', author=None, publish_date=None)
-[checkin_tool.py] [2026-01-01 23:12:25] [Error] データのインサート処理でエラーが発生しました。 module 'lib.file_operation' has no attribute 'file_ctime_get'
-[checkin_tool.py] [2026-01-01 23:12:25] [INFO] 移動したファイルを元に戻します。
-[checkin_tool.py] [2026-01-01 23:13:03] [INFO] スクリプトを開始しました
-[checkin_tool.py] [2026-01-01 23:13:03] [INFO] 変数の初期化を開始
-[checkin_tool.py] [2026-01-01 23:13:03] [INFO] 対象ファイルの確認
-[checkin_tool.py] [2026-01-01 23:13:03] [INFO] Videos.DB の確認を実行 E:\MOVIE_MNG\database\videos.db
-[db.py] [2026-01-01 23:13:03] [INFO] DBのオープン処理開始
-[checkin_tool.py] [2026-01-01 23:13:03] [INFO] 対象ファイル名。E:\MOVIE_MNG\Checkin\wet mary jane 1..mp4
-[checkin_tool.py] [2026-01-01 23:13:03] [INFO] parsed = ParsedMeta(title='wet mary jane 1.', author=None, publish_date=None)
-[checkin_tool.py] [2026-01-01 23:13:03] [INFO] 動画登録日をファイルの作成日で登録します (2022-07-06 13:23:14.520680)
-[checkin_tool.py] [2026-01-01 23:13:03] [INFO] ファイルのチェックサム計算を開始。E:\MOVIE_MNG\checkin\wet mary jane 1..mp4
-[checkin_tool.py] [2026-01-01 23:13:04] [INFO] ファイルのチェックサム値（5e7b2ad57e13a4bcd7e3aee5dc61b4cd34ea1d0654ea31d10173b4f27e2e5835)
-[checkin_tool.py] [2026-01-01 23:13:04] [INFO] Videosテーブルからchecksum値を検索。
-[checkin_tool.py] [2026-01-01 23:13:04] [INFO] Videosテーブルからchecksum値を検索結果 (None)。
-[checkin_tool.py] [2026-01-01 23:13:04] [INFO] 対象ファイルはまだ、登録されていません。処理を継続します。
-[file_operation.py] [2026-01-01 23:13:04] [INFO] 移動前ファイルパス名 E:\MOVIE_MNG\checkin\wet mary jane 1..mp4
-[file_operation.py] [2026-01-01 23:13:04] [INFO] 移動先ファイルパス名 E:\MOVIE_MNG\media\2026\01\01\5jhlu0kt0od.mp4
-[checkin_tool.py] [2026-01-01 23:13:04] [INFO] データ wet mary jane 1. の追加処理開始
-[db.py] [2026-01-01 23:13:04] [INFO] DBのオープン処理開始
-[checkin_tool.py] [2026-01-01 23:13:05] [INFO] データ wet mary jane 1. の追加処理終了
-[checkin_tool.py] [2026-01-01 23:13:05] [INFO] スクリプトを終了しました
+[checkin_tool.py] [2026-01-04 23:41:10] [INFO] スクリプトを開始しました
+[checkin_tool.py] [2026-01-04 23:41:11] [INFO] 変数の初期化を開始
+[checkin_tool.py] [2026-01-04 23:41:11] [INFO] 対象ファイルの確認
+[checkin_tool.py] [2026-01-04 23:41:11] [INFO] Videos.DB の確認を実行 E:\MOVIE_MNG\database\videos.db
+[db.py] [2026-01-04 23:41:11] [INFO] DBのオープン処理開始
+[checkin_tool.py] [2026-01-04 23:41:11] [INFO] 対象ファイル名。E:\MOVIE_MNG\Checkin\wet mary jane 1..mp4
+[checkin_tool.py] [2026-01-04 23:41:11] [INFO] parsed = ParsedMeta(title='wet mary jane 1.', author=None, publish_date=None)
+[checkin_tool.py] [2026-01-04 23:41:11] [INFO] 動画登録日をファイルの更新日時（取得日）で登録します (2022-07-06 13:23:14.520680)
+[checkin_tool.py] [2026-01-04 23:41:11] [INFO] ファイルのチェックサム計算を開始。E:\MOVIE_MNG\checkin\wet mary jane 1..mp4
+[checkin_tool.py] [2026-01-04 23:41:12] [INFO] ファイルのチェックサム値（5e7b2ad57e13a4bcd7e3aee5dc61b4cd34ea1d0654ea31d10173b4f27e2e5835)
+[checkin_tool.py] [2026-01-04 23:41:12] [INFO] Videosテーブルからchecksum値を検索。
+[checkin_tool.py] [2026-01-04 23:41:12] [INFO] Videosテーブルからchecksum値を検索結果 (None)。
+[checkin_tool.py] [2026-01-04 23:41:12] [INFO] 対象ファイルはまだ、登録されていません。処理を継続します。
+[file_operation.py] [2026-01-04 23:41:12] [INFO] 移動前ファイルパス名 E:\MOVIE_MNG\checkin\wet mary jane 1..mp4
+[file_operation.py] [2026-01-04 23:41:12] [INFO] 移動先ファイルパス名 E:\MOVIE_MNG\media\2026\01\04\5jhlve8llm8.mp4
+[checkin_tool.py] [2026-01-04 23:41:12] [INFO] データ wet mary jane 1. の追加処理開始
+[db.py] [2026-01-04 23:41:12] [INFO] DBのオープン処理開始
+[checkin_tool.py] [2026-01-04 23:41:12] [INFO] データ wet mary jane 1. の追加処理終了
+[checkin_tool.py] [2026-01-04 23:41:12] [INFO] スクリプトを終了しました
+[checkin_tool.py] [2026-01-04 23:52:20] [INFO] スクリプトを開始しました
+[checkin_tool.py] [2026-01-04 23:52:20] [INFO] 変数の初期化を開始
+[checkin_tool.py] [2026-01-04 23:52:20] [INFO] 対象ファイルの確認
+[checkin_tool.py] [2026-01-04 23:52:20] [INFO] Videos.DB の確認を実行 E:\MOVIE_MNG\database\videos.db
+[db.py] [2026-01-04 23:52:20] [INFO] DBのオープン処理開始
+[checkin_tool.py] [2026-01-04 23:52:20] [INFO] 対象ファイル名。E:\MOVIE_MNG\Checkin\wet mary jane 1..mp4
+[checkin_tool.py] [2026-01-04 23:52:20] [INFO] parsed = ParsedMeta(title='wet mary jane 1.', author=None, publish_date=None)
+[checkin_tool.py] [2026-01-04 23:52:20] [INFO] 動画登録日をファイルの更新日時（取得日）で登録します (2022-07-06 13:23:14.520680)
+[checkin_tool.py] [2026-01-04 23:52:20] [INFO] ファイルのチェックサム計算を開始。E:\MOVIE_MNG\checkin\wet mary jane 1..mp4
+[checkin_tool.py] [2026-01-04 23:52:21] [INFO] ファイルのチェックサム値（5e7b2ad57e13a4bcd7e3aee5dc61b4cd34ea1d0654ea31d10173b4f27e2e5835)
+[checkin_tool.py] [2026-01-04 23:52:21] [INFO] Videosテーブルからchecksum値を検索。
+[checkin_tool.py] [2026-01-04 23:52:21] [INFO] Videosテーブルからchecksum値を検索結果 (None)。
+[checkin_tool.py] [2026-01-04 23:52:21] [INFO] 対象ファイルはまだ、登録されていません。処理を継続します。
+[file_operation.py] [2026-01-04 23:52:21] [INFO] 移動前ファイルパス名 E:\MOVIE_MNG\checkin\wet mary jane 1..mp4
+[file_operation.py] [2026-01-04 23:52:21] [INFO] 移動先ファイルパス名 E:\MOVIE_MNG\media\2026\01\04\5jhlve99dho.mp4
+[checkin_tool.py] [2026-01-04 23:52:21] [INFO] データ wet mary jane 1. の追加処理開始
+[db.py] [2026-01-04 23:52:21] [INFO] DBのオープン処理開始
+[checkin_tool.py] [2026-01-04 23:52:21] [INFO] データ wet mary jane 1. の追加処理終了
+[checkin_tool.py] [2026-01-04 23:52:21] [INFO] スクリプトを終了しました
+[checkin_tool.py] [2026-01-05 00:07:27] [INFO] スクリプトを開始しました
+[checkin_tool.py] [2026-01-05 00:07:27] [INFO] 変数の初期化を開始
+[checkin_tool.py] [2026-01-05 00:07:27] [INFO] 対象ファイルの確認
+[checkin_tool.py] [2026-01-05 00:07:27] [INFO] Videos.DB の確認を実行 E:\MOVIE_MNG\database\videos.db
+[db.py] [2026-01-05 00:07:27] [INFO] DBのオープン処理開始
+[checkin_tool.py] [2026-01-05 00:07:27] [INFO] 対象ファイル名。E:\MOVIE_MNG\Checkin\wet mary jane 1..mp4
+[checkin_tool.py] [2026-01-05 00:07:27] [INFO] parsed = ParsedMeta(title='wet mary jane 1.', author=None, publish_date=None)
+[checkin_tool.py] [2026-01-05 00:07:27] [INFO] 動画登録日をファイルの更新日時（取得日）で登録します (2022-07-06 13:23:14.520680)
+[checkin_tool.py] [2026-01-05 00:07:27] [INFO] ファイルのチェックサム計算を開始。E:\MOVIE_MNG\checkin\wet mary jane 1..mp4
+[checkin_tool.py] [2026-01-05 00:07:29] [INFO] ファイルのチェックサム値（5e7b2ad57e13a4bcd7e3aee5dc61b4cd34ea1d0654ea31d10173b4f27e2e5835)
+[checkin_tool.py] [2026-01-05 00:07:29] [INFO] Videosテーブルからchecksum値を検索。
+[checkin_tool.py] [2026-01-05 00:07:29] [INFO] Videosテーブルからchecksum値を検索結果 (None)。
+[checkin_tool.py] [2026-01-05 00:07:29] [INFO] 対象ファイルはまだ、登録されていません。処理を継続します。
+[file_operation.py] [2026-01-05 00:07:29] [INFO] 移動前ファイルパス名 E:\MOVIE_MNG\checkin\wet mary jane 1..mp4
+[file_operation.py] [2026-01-05 00:07:29] [INFO] 移動先ファイルパス名 E:\MOVIE_MNG\media\2026\01\05\5jhlvqx0uwu.mp4
+[checkin_tool.py] [2026-01-05 00:07:29] [INFO] データ wet mary jane 1. の追加処理開始
+[db.py] [2026-01-05 00:07:29] [INFO] DBのオープン処理開始
+[checkin_tool.py] [2026-01-05 00:07:29] [INFO] データ wet mary jane 1. の追加処理終了
+[checkin_tool.py] [2026-01-05 00:07:29] [INFO] スクリプトを終了しました
+[checkin_tool.py] [2026-01-05 00:15:42] [INFO] スクリプトを開始しました
+[checkin_tool.py] [2026-01-05 00:15:42] [INFO] 変数の初期化を開始
+[checkin_tool.py] [2026-01-05 00:15:42] [INFO] 対象ファイルの確認
+[checkin_tool.py] [2026-01-05 00:15:42] [INFO] Videos.DB の確認を実行 E:\MOVIE_MNG\database\videos.db
+[db.py] [2026-01-05 00:15:42] [INFO] DBのオープン処理開始
+[checkin_tool.py] [2026-01-05 00:15:42] [INFO] 対象ファイル名。E:\MOVIE_MNG\Checkin\wet mary jane 1..mp4
+[checkin_tool.py] [2026-01-05 00:15:42] [INFO] parsed = ParsedMeta(title='wet mary jane 1.', author=None, publish_date=None)
+[checkin_tool.py] [2026-01-05 00:15:42] [INFO] 動画登録日をファイルの更新日時（取得日）で登録します (2022-07-06 13:23:14.520680)
+[checkin_tool.py] [2026-01-05 00:15:42] [INFO] ファイルのチェックサム計算を開始。E:\MOVIE_MNG\checkin\wet mary jane 1..mp4
+[checkin_tool.py] [2026-01-05 00:15:43] [INFO] ファイルのチェックサム値（5e7b2ad57e13a4bcd7e3aee5dc61b4cd34ea1d0654ea31d10173b4f27e2e5835)
+[checkin_tool.py] [2026-01-05 00:15:43] [INFO] Videosテーブルからchecksum値を検索。
+[checkin_tool.py] [2026-01-05 00:15:43] [INFO] Videosテーブルからchecksum値を検索結果 (None)。
+[checkin_tool.py] [2026-01-05 00:15:43] [INFO] 対象ファイルはまだ、登録されていません。処理を継続します。
+[file_operation.py] [2026-01-05 00:15:43] [INFO] 移動前ファイルパス名 E:\MOVIE_MNG\checkin\wet mary jane 1..mp4
+[file_operation.py] [2026-01-05 00:15:43] [INFO] 移動先ファイルパス名 E:\MOVIE_MNG\media\2026\01\05\5jhlvqxibdl.mp4
+[checkin_tool.py] [2026-01-05 00:15:43] [INFO] データ wet mary jane 1. の追加処理開始
+[db.py] [2026-01-05 00:15:43] [INFO] DBのオープン処理開始
+[checkin_tool.py] [2026-01-05 00:15:43] [INFO] データ wet mary jane 1. の追加処理終了
+[checkin_tool.py] [2026-01-05 00:15:43] [INFO] スクリプトを終了しました
+[checkin_tool.py] [2026-01-05 00:19:36] [INFO] スクリプトを開始しました
+[checkin_tool.py] [2026-01-05 00:19:36] [INFO] 変数の初期化を開始
+[checkin_tool.py] [2026-01-05 00:19:36] [INFO] 対象ファイルの確認
+[checkin_tool.py] [2026-01-05 00:19:36] [INFO] Videos.DB の確認を実行 E:\MOVIE_MNG\database\videos.db
+[db.py] [2026-01-05 00:19:36] [INFO] DBのオープン処理開始
+[checkin_tool.py] [2026-01-05 00:19:36] [INFO] 対象ファイル名。E:\MOVIE_MNG\Checkin\wet mary jane 1..mp4
+[checkin_tool.py] [2026-01-05 00:19:36] [INFO] parsed = ParsedMeta(title='wet mary jane 1.', author=None, publish_date=None)
+[checkin_tool.py] [2026-01-05 00:19:36] [INFO] 動画登録日をファイルの更新日時（取得日）で登録します (2022-07-06 13:23:14.520680)
+[checkin_tool.py] [2026-01-05 00:19:36] [INFO] ファイルのチェックサム計算を開始。E:\MOVIE_MNG\checkin\wet mary jane 1..mp4
+[checkin_tool.py] [2026-01-05 00:19:37] [INFO] ファイルのチェックサム値（5e7b2ad57e13a4bcd7e3aee5dc61b4cd34ea1d0654ea31d10173b4f27e2e5835)
+[checkin_tool.py] [2026-01-05 00:19:37] [INFO] Videosテーブルからchecksum値を検索。
+[checkin_tool.py] [2026-01-05 00:19:37] [INFO] Videosテーブルからchecksum値を検索結果 (None)。
+[checkin_tool.py] [2026-01-05 00:19:37] [INFO] 対象ファイルはまだ、登録されていません。処理を継続します。
+[file_operation.py] [2026-01-05 00:19:37] [INFO] 移動前ファイルパス名 E:\MOVIE_MNG\checkin\wet mary jane 1..mp4
+[file_operation.py] [2026-01-05 00:19:37] [INFO] 移動先ファイルパス名 E:\MOVIE_MNG\media\2026\01\05\5jhlvqxqrki.mp4
+[checkin_tool.py] [2026-01-05 00:19:37] [INFO] データ wet mary jane 1. の追加処理開始
+[db.py] [2026-01-05 00:19:37] [INFO] DBのオープン処理開始
+[checkin_tool.py] [2026-01-05 00:19:38] [INFO] データ wet mary jane 1. の追加処理終了
+[checkin_tool.py] [2026-01-05 00:19:38] [INFO] スクリプトを終了しました
