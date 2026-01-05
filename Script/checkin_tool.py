@@ -115,7 +115,7 @@ def process_file(p: pathlib.Path, dest_root: pathlib.Path, db: Optional[DBWriter
     # ファイルの移動処理
     if skip_flag == False:
         res = file_operation.move_to_date_folder(CHECKIN_DIR, orig_name, moved_path, new_name)
-    return skip_flag, [file_id, parsed.title, parsed.author, parsed.publish_date, str(moved_path), checkin_time.isoformat(), p.name, check_sha256], [CHECKIN_DIR, orig_name, moved_path, new_name]
+    return skip_flag, [file_id, parsed.title, parsed.author, parsed.publish_date, str(moved_path), checkin_time.isoformat(), p.name, check_sha256, new_name], [CHECKIN_DIR, orig_name, moved_path, new_name]
 
 
 def main(argv: Optional[List[str]] = None):
@@ -151,7 +151,7 @@ def main(argv: Optional[List[str]] = None):
                 log.logprint(script_name, f"データ {db_data[1]} の追加処理開始")
                 dbw = db.videosDBWriter(VIDEO_DB_PATH)
                 #                       file_id     title        author      
-                ret = dbw.insert_video(db_data[0], db_data[1], db_data[2], db_data[3], db_data[4], db_data[5], db_data[6], db_data[7])
+                ret = dbw.insert_video(db_data[0], db_data[1], db_data[2], db_data[3], db_data[4], db_data[5], db_data[6], db_data[7], db_data[8])
                 log.logprint(script_name, f"データ {db_data[1]} の追加処理終了")
                 res = {
                     "original": db_data[6],
@@ -160,6 +160,7 @@ def main(argv: Optional[List[str]] = None):
                     "author": db_data[2] or "",
                     "publish_date": db_data[3] or "",
                     "folder_path": db_data[4],
+                    "file_name": db_data[8],
                 }
                 results.append(res)
             else:

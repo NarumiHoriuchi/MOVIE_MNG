@@ -93,3 +93,163 @@
 [db.py] [2026-01-05 00:19:37] [INFO] DBのオープン処理開始
 [checkin_tool.py] [2026-01-05 00:19:38] [INFO] データ wet mary jane 1. の追加処理終了
 [checkin_tool.py] [2026-01-05 00:19:38] [INFO] スクリプトを終了しました
+[playlist_register.py] [2026-01-05 00:29:10] [INFO] playlist に登録されていない videos テーブルを抽出
+[playlist_register.py] [2026-01-05 00:42:54] [INFO] playlist に登録されていない videos テーブルを抽出
+[playlist_register.py] [2026-01-05 00:42:54] [INFO] 追加候補: (18, '5jhlvqxqrki', 'wet mary jane 1.', '2022-07-06 13:23:14.520680', 'E:\\MOVIE_MNG\\media\\2026\\01\\05')
+[playlist_register.py] [2026-01-05 00:45:55] [INFO] playlist に登録されていない videos テーブルを抽出
+[playlist_register.py] [2026-01-05 00:45:55] [INFO] 追加候補: (18, '5jhlvqxqrki', 'wet mary jane 1.', '2022-07-06 13:23:14.520680', 'E:\\MOVIE_MNG\\media\\2026\\01\\05')
+[playlist_register.py] [2026-01-05 00:46:50] [INFO] playlist に登録されていない videos テーブルを抽出
+[playlist_register.py] [2026-01-05 00:46:50] [INFO] 追加候補: (18, '5jhlvqxqrki', 'wet mary jane 1.', '2022-07-06 13:23:14.520680', 'E:\\MOVIE_MNG\\media\\2026\\01\\05')
+[playlist_register.py] [2026-01-05 23:38:08] [INFO] playlist に登録されていない videos テーブルを抽出
+[playlist_register.py] [2026-01-05 23:38:08] [INFO] 追加候補: (18, '5jhlvqxqrki', 'wet mary jane 1.', '2026-01-05T00:19:36.658774', 'E:\\MOVIE_MNG\\media\\2026\\01\\05')
+[playlist_register.py] [2026-01-05 23:41:02] [INFO] playlist に登録されていない videos テーブルを抽出
+[playlist_register.py] [2026-01-05 23:41:02] [INFO] 追加候補: (18, '5jhlvqxqrki', 'wet mary jane 1.', '2026-01-05T00:19:36.658774', 'E:\\MOVIE_MNG\\media\\2026\\01\\05')
+[playlist_register.py] [2026-01-05 23:41:02] [INFO] Thumbnail ディレクトリは、E:\MOVIE_MNG\thumbnail/2026/01
+[playlist_register.py] [2026-01-05 23:41:02] [INFO] サムネイルの作成を行います。(05)
+[playlist_register.py] [2026-01-05 23:41:03] [INFO] カバー画像がないため、サムネイルを生成しました
+[playlist_register.py] [2026-01-05 23:44:32] [INFO] playlist に登録されていない videos テーブルを抽出
+[playlist_register.py] [2026-01-05 23:44:32] [INFO] 追加候補: (18, '5jhlvqxqrki', 'wet mary jane 1.', '2026-01-05T00:19:36.658774', 'E:\\MOVIE_MNG\\media\\2026\\01\\05')
+[playlist_register.py] [2026-01-05 23:44:33] [INFO] Thumbnail ディレクトリは、E:\MOVIE_MNG\thumbnail/2026/01
+[playlist_register.py] [2026-01-05 23:44:33] [INFO] サムネイルの作成を行います。(05)
+[playlist_register.py] [2026-01-05 23:44:33] [INFO] カバー画像がないため、サムネイルを生成しました
+[playlist_register.py] [2026-01-05 23:51:16] [INFO] playlist に登録されていない videos テーブルを抽出
+[playlist_register.py] [2026-01-05 23:51:16] [INFO] 追加候補: (18, '5jhlvqxqrki', 'wet mary jane 1.', '2026-01-05T00:19:36.658774', 'E:\\MOVIE_MNG\\media\\2026\\01\\05')
+[playlist_register.py] [2026-01-05 23:52:13] [INFO] playlist に登録されていない videos テーブルを抽出
+[playlist_register.py] [2026-01-05 23:52:13] [INFO] 追加候補: (18, '5jhlvqxqrki', 'wet mary jane 1.', '2026-01-05T00:19:36.658774', 'E:\\MOVIE_MNG\\media\\2026\\01\\05')
+[playlist_register.py] [2026-01-05 23:52:13] [INFO] Thumbnail ディレクトリは、E:\MOVIE_MNG\thumbnail/2026/01
+[playlist_register.py] [2026-01-05 23:52:13] [INFO] サムネイルの作成を行います。(5jhlvqxqrki)
+[playlist_register.py] [2026-01-05 23:52:13] [INFO] ffmpeg 実行コマンド [['ffmpeg', '-y', '-ss', '00:00:10', '-i', 'E:\\MOVIE_MNG\\media\\2026\\01\\05/5jhlvqxqrki', '-frames:v', '1', 'E:\\MOVIE_MNG\\thumbnail\\2026\\01\\5jhlvqxqrki.png']]
+[playlist_register.py] [2026-01-05 23:52:13] [INFO] カバー画像がないため、サムネイルを生成しました
+[checkin_tool.py] [2026-01-06 00:14:09] [INFO] スクリプトを開始しました
+[checkin_tool.py] [2026-01-06 00:14:09] [INFO] 変数の初期化を開始
+[checkin_tool.py] [2026-01-06 00:14:09] [INFO] 対象ファイルの確認
+[checkin_tool.py] [2026-01-06 00:14:09] [INFO] Videos.DB の確認を実行 E:\MOVIE_MNG\database\videos.db
+[db.py] [2026-01-06 00:14:09] [INFO] DBのオープン処理開始
+[checkin_tool.py] [2026-01-06 00:14:10] [INFO] 対象ファイル名。E:\MOVIE_MNG\Checkin\wet mary jane 1..mp4
+[checkin_tool.py] [2026-01-06 00:14:10] [INFO] parsed = ParsedMeta(title='wet mary jane 1.', author=None, publish_date=None)
+[checkin_tool.py] [2026-01-06 00:14:10] [INFO] 動画登録日をファイルの更新日時（取得日）で登録します (2022-07-06 13:23:14.520680)
+[checkin_tool.py] [2026-01-06 00:14:10] [INFO] ファイルのチェックサム計算を開始。E:\MOVIE_MNG\checkin\wet mary jane 1..mp4
+[checkin_tool.py] [2026-01-06 00:14:11] [INFO] ファイルのチェックサム値（5e7b2ad57e13a4bcd7e3aee5dc61b4cd34ea1d0654ea31d10173b4f27e2e5835)
+[checkin_tool.py] [2026-01-06 00:14:11] [INFO] Videosテーブルからchecksum値を検索。
+[checkin_tool.py] [2026-01-06 00:14:11] [INFO] Videosテーブルからchecksum値を検索結果 (None)。
+[checkin_tool.py] [2026-01-06 00:14:11] [INFO] 対象ファイルはまだ、登録されていません。処理を継続します。
+[file_operation.py] [2026-01-06 00:14:11] [INFO] 移動前ファイルパス名 E:\MOVIE_MNG\checkin\wet mary jane 1..mp4
+[file_operation.py] [2026-01-06 00:14:11] [INFO] 移動先ファイルパス名 E:\MOVIE_MNG\media\2026\01\06\5jhlw7gsy5h.mp4
+[checkin_tool.py] [2026-01-06 00:14:11] [INFO] データ wet mary jane 1. の追加処理開始
+[db.py] [2026-01-06 00:14:11] [INFO] DBのオープン処理開始
+[checkin_tool.py] [2026-01-06 00:14:11] [Error] データのインサート処理でエラーが発生しました。 videosDBWriter.insert_video() takes 9 positional arguments but 10 were given
+[checkin_tool.py] [2026-01-06 00:14:11] [INFO] 移動したファイルを元に戻します。
+[checkin_tool.py] [2026-01-06 00:14:11] [INFO] 戻したファイル (E:\MOVIE_MNG\media\2026\01\06\5jhlw7gsy5h.mp4)
+[checkin_tool.py] [2026-01-06 00:14:11] [INFO] スクリプトを終了しました
+[checkin_tool.py] [2026-01-06 00:14:11] [INFO] スクリプトを終了しました
+[checkin_tool.py] [2026-01-06 00:20:17] [INFO] スクリプトを開始しました
+[checkin_tool.py] [2026-01-06 00:20:17] [INFO] 変数の初期化を開始
+[checkin_tool.py] [2026-01-06 00:20:17] [INFO] 対象ファイルの確認
+[checkin_tool.py] [2026-01-06 00:20:17] [INFO] Videos.DB の確認を実行 E:\MOVIE_MNG\database\videos.db
+[db.py] [2026-01-06 00:20:17] [INFO] DBのオープン処理開始
+[checkin_tool.py] [2026-01-06 00:20:17] [INFO] 対象ファイル名。E:\MOVIE_MNG\Checkin\wet mary jane 1..mp4
+[checkin_tool.py] [2026-01-06 00:20:17] [INFO] parsed = ParsedMeta(title='wet mary jane 1.', author=None, publish_date=None)
+[checkin_tool.py] [2026-01-06 00:20:17] [INFO] 動画登録日をファイルの更新日時（取得日）で登録します (2022-07-06 13:23:14.520680)
+[checkin_tool.py] [2026-01-06 00:20:17] [INFO] ファイルのチェックサム計算を開始。E:\MOVIE_MNG\checkin\wet mary jane 1..mp4
+[checkin_tool.py] [2026-01-06 00:20:17] [INFO] ファイルのチェックサム値（5e7b2ad57e13a4bcd7e3aee5dc61b4cd34ea1d0654ea31d10173b4f27e2e5835)
+[checkin_tool.py] [2026-01-06 00:20:17] [INFO] Videosテーブルからchecksum値を検索。
+[checkin_tool.py] [2026-01-06 00:20:17] [INFO] Videosテーブルからchecksum値を検索結果 (None)。
+[checkin_tool.py] [2026-01-06 00:20:17] [INFO] 対象ファイルはまだ、登録されていません。処理を継続します。
+[file_operation.py] [2026-01-06 00:20:17] [INFO] 移動前ファイルパス名 E:\MOVIE_MNG\checkin\wet mary jane 1..mp4
+[file_operation.py] [2026-01-06 00:20:17] [INFO] 移動先ファイルパス名 E:\MOVIE_MNG\media\2026\01\06\5jhlw7h5ym4.mp4
+[checkin_tool.py] [2026-01-06 00:20:17] [INFO] データ wet mary jane 1. の追加処理開始
+[db.py] [2026-01-06 00:20:17] [INFO] DBのオープン処理開始
+[db.py] [2026-01-06 00:20:17] [INFO] Videos.db にデータを追記(commit)しました。
+[checkin_tool.py] [2026-01-06 00:20:17] [INFO] データ wet mary jane 1. の追加処理終了
+[checkin_tool.py] [2026-01-06 00:20:17] [INFO] スクリプトを終了しました
+[playlist_register.py] [2026-01-06 00:23:09] [INFO] playlist に登録されていない videos テーブルを抽出
+[playlist_register.py] [2026-01-06 00:23:09] [INFO] 追加候補: (19, '5jhlw7h5ym4', 'wet mary jane 1.', '2026-01-06T00:20:17.148880', 'E:\\MOVIE_MNG\\media\\2026\\01\\06')
+[playlist_register.py] [2026-01-06 00:23:09] [INFO] Thumbnail ディレクトリは、E:\MOVIE_MNG\thumbnail/2026/01
+[playlist_register.py] [2026-01-06 00:23:09] [INFO] サムネイルの作成を行います。(5jhlw7h5ym4)
+[playlist_register.py] [2026-01-06 00:23:09] [INFO] ffmpeg 実行コマンド [['ffmpeg', '-y', '-ss', '00:00:10', '-i', 'E:\\MOVIE_MNG\\media\\2026\\01\\06/5jhlw7h5ym4', '-frames:v', '1', 'E:\\MOVIE_MNG\\thumbnail\\2026\\01\\5jhlw7h5ym4.png']]
+[playlist_register.py] [2026-01-06 00:23:09] [INFO] カバー画像がないため、サムネイルを生成しました
+[playlist_register.py] [2026-01-06 00:31:03] [INFO] playlist に登録されていない videos テーブルを抽出
+[playlist_register.py] [2026-01-06 00:31:03] [INFO] 追加候補: (19, '5jhlw7h5ym4', 'wet mary jane 1.', '2026-01-06T00:20:17.148880', 'E:\\MOVIE_MNG\\media\\2026\\01\\06', '5jhlw7h5ym4.mp4')
+[playlist_register.py] [2026-01-06 00:31:03] [INFO] Thumbnail ディレクトリは、E:\MOVIE_MNG\thumbnail/2026/01
+[playlist_register.py] [2026-01-06 00:31:03] [INFO] サムネイルの作成を行います。(5jhlw7h5ym4.mp4)
+[playlist_register.py] [2026-01-06 00:31:05] [INFO] ffmpeg 実行コマンド [['ffmpeg', '-y', '-ss', '00:00:10', '-i', 'E:\\MOVIE_MNG\\media\\2026\\01\\06/5jhlw7h5ym4.mp4', '-frames:v', '1', 'E:\\MOVIE_MNG\\thumbnail\\2026\\01\\5jhlw7h5ym4.mp4.png']]
+[playlist_register.py] [2026-01-06 00:31:06] [INFO] カバー画像がないため、サムネイルを生成しました
+[db.py] [2026-01-06 00:50:46] [INFO] DBのオープン処理開始
+[db.py] [2026-01-06 00:53:31] [INFO] DBのオープン処理開始
+[db.py] [2026-01-06 00:55:58] [INFO] DBのオープン処理開始
+[db.py] [2026-01-06 01:01:46] [INFO] DBのオープン処理開始
+[db.py] [2026-01-06 01:02:35] [INFO] DBのオープン処理開始
+[db.py] [2026-01-06 01:03:40] [INFO] DBのオープン処理開始
+[db.py] [2026-01-06 01:07:06] [INFO] DBのオープン処理開始
+[db.py] [2026-01-06 01:07:29] [INFO] DBのオープン処理開始
+[db.py] [2026-01-06 01:09:40] [INFO] DBのオープン処理開始
+[db.py] [2026-01-06 01:11:24] [INFO] DBのオープン処理開始
+[db.py] [2026-01-06 01:13:56] [INFO] DBのオープン処理開始
+[db.py] [2026-01-06 01:26:53] [INFO] DBのオープン処理開始
+[db.py] [2026-01-06 01:27:27] [INFO] DBのオープン処理開始
+[db.py] [2026-01-06 01:27:27] [INFO] playlist に登録されていない videos テーブルを抽出
+[db.py] [2026-01-06 01:28:44] [INFO] DBのオープン処理開始
+[db.py] [2026-01-06 01:28:44] [INFO] playlist に登録されていない videos テーブルを抽出
+[playlist_register.py] [2026-01-06 01:28:44] [INFO] 追加候補: (19, '5jhlw7h5ym4', 'wet mary jane 1.', '2026-01-06T00:20:17.148880', 'E:\\MOVIE_MNG\\media\\2026\\01\\06', '5jhlw7h5ym4.mp4')
+[playlist_register.py] [2026-01-06 01:28:44] [INFO] Thumbnail ディレクトリは、E:\MOVIE_MNG\thumbnail/2026/01
+[playlist_register.py] [2026-01-06 01:28:44] [INFO] サムネイルの作成を行います。(5jhlw7h5ym4.mp4)
+[playlist_register.py] [2026-01-06 01:28:44] [INFO] ffmpeg 実行コマンド [['ffmpeg', '-y', '-ss', '00:00:10', '-i', 'E:\\MOVIE_MNG\\media\\2026\\01\\06/5jhlw7h5ym4.mp4', '-frames:v', '1', 'E:\\MOVIE_MNG\\thumbnail\\2026\\01\\5jhlw7h5ym4.mp4.png']]
+[playlist_register.py] [2026-01-06 01:28:45] [INFO] カバー画像がないため、サムネイルを生成しました
+[db.py] [2026-01-06 01:39:31] [INFO] DBのオープン処理開始
+[db.py] [2026-01-06 01:39:31] [INFO] playlist に登録されていない videos テーブルを抽出
+[playlist_register.py] [2026-01-06 01:39:31] [INFO] 追加候補: (19, '5jhlw7h5ym4', 'wet mary jane 1.', '2026-01-06T00:20:17.148880', 'E:\\MOVIE_MNG\\media\\2026\\01\\06', '5jhlw7h5ym4.mp4')
+[playlist_register.py] [2026-01-06 01:39:31] [INFO] Thumbnail ディレクトリは、E:\MOVIE_MNG\thumbnail/2026/01
+[playlist_register.py] [2026-01-06 01:39:31] [INFO] サムネイルの作成を行います。(5jhlw7h5ym4.mp4)
+[playlist_register.py] [2026-01-06 01:39:31] [INFO] ffmpeg 実行コマンド [['ffmpeg', '-y', '-ss', '00:00:10', '-i', 'E:\\MOVIE_MNG\\media\\2026\\01\\06/5jhlw7h5ym4.mp4', '-frames:v', '1', 'E:\\MOVIE_MNG\\thumbnail\\2026\\01\\5jhlw7h5ym4.mp4.png']]
+[playlist_register.py] [2026-01-06 01:39:32] [INFO] カバー画像がないため、サムネイルを生成しました
+[db.py] [2026-01-06 01:52:18] [INFO] DBのオープン処理開始
+[db.py] [2026-01-06 01:52:18] [INFO] playlist に登録されていない videos テーブルを抽出
+[playlist_register.py] [2026-01-06 01:52:18] [INFO] 追加候補: (19, '5jhlw7h5ym4', 'wet mary jane 1.', '2026-01-06T00:20:17.148880', 'E:\\MOVIE_MNG\\media\\2026\\01\\06', '5jhlw7h5ym4.mp4')
+[playlist_register.py] [2026-01-06 01:52:19] [INFO] Thumbnail ディレクトリは、E:\MOVIE_MNG\thumbnail/2026/01
+[playlist_register.py] [2026-01-06 01:52:19] [INFO] サムネイルの作成を行います。(5jhlw7h5ym4.mp4)
+[playlist_register.py] [2026-01-06 01:52:19] [INFO] ffmpeg 実行コマンド [['ffmpeg', '-y', '-ss', '00:00:10', '-i', 'E:\\MOVIE_MNG\\media\\2026\\01\\06/5jhlw7h5ym4.mp4', '-frames:v', '1', 'E:\\MOVIE_MNG\\thumbnail\\2026\\01\\5jhlw7h5ym4.mp4.png']]
+[playlist_register.py] [2026-01-06 01:52:20] [INFO] カバー画像がないため、サムネイルを生成しました
+[db.py] [2026-01-06 01:55:35] [INFO] DBのオープン処理開始
+[db.py] [2026-01-06 01:55:35] [INFO] playlist に登録されていない videos テーブルを抽出
+[playlist_register.py] [2026-01-06 01:55:35] [INFO] 追加候補: (19, '5jhlw7h5ym4', 'wet mary jane 1.', '2026-01-06T00:20:17.148880', 'E:\\MOVIE_MNG\\media\\2026\\01\\06', '5jhlw7h5ym4.mp4')
+[playlist_register.py] [2026-01-06 01:55:35] [INFO] Thumbnail ディレクトリは、E:\MOVIE_MNG\thumbnail/2026/01
+[playlist_register.py] [2026-01-06 01:55:35] [INFO] サムネイルの作成を行います。(5jhlw7h5ym4.mp4)
+[playlist_register.py] [2026-01-06 01:55:35] [INFO] ffmpeg 実行コマンド [['ffmpeg', '-y', '-ss', '00:00:10', '-i', 'E:\\MOVIE_MNG\\media\\2026\\01\\06/5jhlw7h5ym4.mp4', '-frames:v', '1', 'E:\\MOVIE_MNG\\thumbnail\\2026\\01\\5jhlw7h5ym4.mp4.png']]
+[playlist_register.py] [2026-01-06 01:55:36] [INFO] カバー画像がないため、サムネイルを生成しました
+[db.py] [2026-01-06 01:56:13] [INFO] DBのオープン処理開始
+[db.py] [2026-01-06 01:56:13] [INFO] playlist に登録されていない videos テーブルを抽出
+[playlist_register.py] [2026-01-06 01:56:13] [INFO] 追加候補: (19, '5jhlw7h5ym4', 'wet mary jane 1.', '2026-01-06T00:20:17.148880', 'E:\\MOVIE_MNG\\media\\2026\\01\\06', '5jhlw7h5ym4.mp4')
+[playlist_register.py] [2026-01-06 01:56:13] [INFO] Thumbnail ディレクトリは、E:\MOVIE_MNG\thumbnail/2026/01
+[playlist_register.py] [2026-01-06 01:56:13] [INFO] サムネイルの作成を行います。(5jhlw7h5ym4.mp4)
+[playlist_register.py] [2026-01-06 01:56:13] [INFO] ffmpeg 実行コマンド [['ffmpeg', '-y', '-ss', '00:00:10', '-i', 'E:\\MOVIE_MNG\\media\\2026\\01\\06/5jhlw7h5ym4.mp4', '-frames:v', '1', 'E:\\MOVIE_MNG\\thumbnail\\2026\\01\\5jhlw7h5ym4.mp4.png']]
+[playlist_register.py] [2026-01-06 01:56:14] [INFO] カバー画像がないため、サムネイルを生成しました
+[db.py] [2026-01-06 01:56:14] [INFO] Playlistテーブルに追加します。(19)
+[db.py] [2026-01-06 01:57:16] [INFO] DBのオープン処理開始
+[db.py] [2026-01-06 01:57:16] [INFO] playlist に登録されていない videos テーブルを抽出
+[playlist_register.py] [2026-01-06 01:57:16] [INFO] 追加候補: (19, '5jhlw7h5ym4', 'wet mary jane 1.', '2026-01-06T00:20:17.148880', 'E:\\MOVIE_MNG\\media\\2026\\01\\06', '5jhlw7h5ym4.mp4')
+[playlist_register.py] [2026-01-06 01:57:16] [INFO] Thumbnail ディレクトリは、E:\MOVIE_MNG\thumbnail/2026/01
+[playlist_register.py] [2026-01-06 01:57:16] [INFO] サムネイルの作成を行います。(5jhlw7h5ym4.mp4)
+[playlist_register.py] [2026-01-06 01:57:16] [INFO] ffmpeg 実行コマンド [['ffmpeg', '-y', '-ss', '00:00:10', '-i', 'E:\\MOVIE_MNG\\media\\2026\\01\\06/5jhlw7h5ym4.mp4', '-frames:v', '1', 'E:\\MOVIE_MNG\\thumbnail\\2026\\01\\5jhlw7h5ym4.mp4.png']]
+[playlist_register.py] [2026-01-06 01:57:17] [INFO] カバー画像がないため、サムネイルを生成しました
+[db.py] [2026-01-06 01:57:17] [INFO] Playlistテーブルに追加します。(19)
+[db.py] [2026-01-06 01:57:17] [INFO] Playlistテーブルの追加完了。
+[db.py] [2026-01-06 02:05:33] [INFO] DBのオープン処理開始
+[db.py] [2026-01-06 02:05:33] [INFO] playlist に登録されていない videos テーブルを抽出
+[db.py] [2026-01-06 02:06:21] [INFO] DBのオープン処理開始
+[db.py] [2026-01-06 02:06:21] [INFO] playlist に登録されていない videos テーブルを抽出
+[playlist_register.py] [2026-01-06 02:06:21] [INFO] 追加候補: (19, '5jhlw7h5ym4', 'wet mary jane 1.', '2026-01-06T00:20:17.148880', 'E:\\MOVIE_MNG\\media\\2026\\01\\06', '5jhlw7h5ym4.mp4')
+[playlist_register.py] [2026-01-06 02:06:21] [INFO] Thumbnail ディレクトリは、E:\MOVIE_MNG\thumbnail/2026/01
+[playlist_register.py] [2026-01-06 02:06:21] [INFO] サムネイルの作成を行います。(5jhlw7h5ym4.mp4)
+[playlist_register.py] [2026-01-06 02:06:21] [INFO] ffmpeg 実行コマンド [['ffmpeg', '-y', '-ss', '00:00:10', '-i', 'E:\\MOVIE_MNG\\media\\2026\\01\\06/5jhlw7h5ym4.mp4', '-frames:v', '1', 'E:\\MOVIE_MNG\\thumbnail\\2026\\01\\5jhlw7h5ym4.mp4.png']]
+[playlist_register.py] [2026-01-06 02:06:22] [INFO] カバー画像がないため、サムネイルを生成しました。(E:\MOVIE_MNG\thumbnail\2026\01\5jhlw7h5ym4.mp4.png)
+[db.py] [2026-01-06 02:06:22] [INFO] Playlistテーブルに追加します。(19)
+[db.py] [2026-01-06 02:06:22] [INFO] Playlistテーブルの追加完了。
+[db.py] [2026-01-06 02:08:39] [INFO] DBのオープン処理開始
+[db.py] [2026-01-06 02:08:39] [INFO] playlist に登録されていない videos テーブルを抽出
+[playlist_register.py] [2026-01-06 02:08:39] [INFO] 追加候補: (19, '5jhlw7h5ym4', 'wet mary jane 1.', '2026-01-06T00:20:17.148880', 'E:\\MOVIE_MNG\\media\\2026\\01\\06', '5jhlw7h5ym4.mp4')
+[playlist_register.py] [2026-01-06 02:08:39] [INFO] Thumbnail ディレクトリは、E:\MOVIE_MNG\thumbnail/2026/01
+[playlist_register.py] [2026-01-06 02:08:39] [INFO] サムネイルの作成を行います。(5jhlw7h5ym4.mp4)
+[playlist_register.py] [2026-01-06 02:08:39] [INFO] ffmpeg 実行コマンド [['ffmpeg', '-y', '-ss', '00:00:10', '-i', 'E:\\MOVIE_MNG\\media\\2026\\01\\06/5jhlw7h5ym4.mp4', '-frames:v', '1', 'E:\\MOVIE_MNG\\thumbnail\\2026\\01\\5jhlw7h5ym4.mp4.png']]
+[playlist_register.py] [2026-01-06 02:08:40] [INFO] カバー画像がないため、サムネイルを生成しました。(E:\MOVIE_MNG\thumbnail\2026\01\5jhlw7h5ym4.mp4.png)
+[db.py] [2026-01-06 02:08:40] [INFO] Playlistテーブルに追加します。(19)
+[db.py] [2026-01-06 02:08:40] [INFO] Playlistテーブルの追加完了。

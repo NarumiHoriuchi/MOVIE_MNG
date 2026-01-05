@@ -20,58 +20,30 @@ script_name = os.path.basename(__file__)
 import lib.log as log
 
 
-#VIDEOS_DB = os.path.join(DB_DIR, 'videos.db')
-# PLAYLIST_DB = os.path.join(DB_DIR, 'playlist.db')
-# PLAYLIST_DB = os.path.join(DB_DIR, 'videos.db')
+# --------------------
+# DB Writer (SQLite)
+# --------------------
+from lib.db import videosDBWriter
 
 
-"""
-def init_playlist_db():
-    conn = sqlite3.connect(VIDEO_DB_PATH)
-    cur = conn.cursor()
-
-    # conn.commit()
-    # conn.close()
-"""
-
-
-def get_unregistered_videos():
-    vconn = sqlite3.connect(VIDEO_DB_PATH)
-    # pconn = sqlite3.connect(PLAYLIST_DB)
-
-    vcur = vconn.cursor()
-    # DB本体は同じだが、混乱を防ぐため、あえて定義
-    pcur = vconn.cursor()
-
-    log.logprint(script_name, "playlist に登録されていない videos テーブルを抽出")
-    rows = vcur.execute(
-    """
-        SELECT v.id, v.file_id, v.title, v.publish_date, h.folder_path
-        FROM (Videos v JOIN HDD h ON v.id = h.id)
-        WHERE NOT EXISTS (
-            SELECT 1
-            FROM Playlist p
-            WHERE p.video_id = v.id
-        )
-    """).fetchall()
-
-    print(rows)
+def get_unregistered_videos(db):
+    rows = db.p_diff_v_table()
+    
     for row in rows:
-        print("追加候補:", row)
-        # log.logprint(script_name, f"追加候補: {row[file_id]}")
+        # print("追加候補:", row)
+        log.logprint(script_name, f"追加候補: {row}")
 
-    vconn.close()
-    # pconn.close()
     return rows
 
 
-def create_thumbnail(video_path, created_at):
+def create_thumbnail(folder_path, created_at, file_name):
     print(created_at)
-    sys.exit()
     dt = datetime.fromisoformat(created_at)
     year = dt.strftime('%Y')
     month = dt.strftime('%m')
 
+    video_path = folder_path + "/" + file_name
+    log.logprint(script_name, f"Thumbnail ディレクトリは、{THUMBNAIL_DIR}/{year}/{month}")
     out_dir = os.path.join(THUMBNAIL_DIR, year, month)
     os.makedirs(out_dir, exist_ok=True)
 
@@ -95,7 +67,7 @@ def create_thumbnail(video_path, created_at):
             thumb_path
         ]
         subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-        log.logprint(script_name, "カバー画像の取り出しを行いました。")
+        log.logprint(script_name, f"カバー画像の取り出しを行いました。({thumb_path})")
     else:
     # if not os.path.exists(thumb_path):
         cmd = [
@@ -106,30 +78,23 @@ def create_thumbnail(video_path, created_at):
             '-frames:v', '1',
             thumb_path
         ]
+        log.logprint(script_name, f"ffmpeg 実行コマンド [{cmd}]")
         subprocess.run(cmd, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
-        log.logprint(script_name, "カバー画像がないため、サムネイルを生成しました")
+        log.logprint(script_name, f"カバー画像がないため、サムネイルを生成しました。({thumb_path})")
 
-    return os.path.relpath(thumb_path, BASE_DIR)
+    return thumb_path
 
 
 def register_playlist():
-    # init_playlist_db()
-    videos = get_unregistered_videos()
+    db = videosDBWriter(VIDEO_DB_PATH)
 
-    conn = sqlite3.connect(VIDEO_DB_PATH)
-    cur = conn.cursor()
+    videos = get_unregistered_videos(db)
 
-    for id, folder_path, file_id, title, publish_date in videos:
-        thumbnail = create_thumbnail(folder_path, publish_date)
-        cur.execute("""
-            INSERT INTO playlist (
-                video_id, title, thumbnail,
-                played_time, play_count, favorite
-            ) VALUES (?, ?, ?, '00:00:00', 0, 0)
-        """, (id, title, thumbnail))
+    print(f"122行目：videos {videos}")
 
-    conn.commit()
-    conn.close()
+    for id, file_id, title, checkin_time, folder_path, file_name in videos:
+        thumbnail = create_thumbnail(folder_path, checkin_time, file_name)
+        db.playlist_insert(id, title, thumbnail)
 
 
 if __name__ == '__main__':
